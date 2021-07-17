@@ -1,0 +1,113 @@
+{
+  "contractName": "Comments",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/subcontracts/Comments.sol\":\"Comments\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/subcontracts/Comments.sol\":{\"keccak256\":\"0x05e8df8f0a2297545ecc3bbb8c7be08ad6818a05a167a4af43f4007c51ba9a03\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://27eec6fc8b892b08b6b15dd522ff1164d2d7a627065b218bce17ff3c3ee6a322\",\"dweb:/ipfs/QmbuHEujW2jNgS9ztTeBVsEVM6hY4Cg3rFoMyRRMNA9aqv\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122064f0872b1bb3ab8ac8c06d4ccb2e0ef750cbd7794d833af3293f142c685e29df64736f6c63430008000033",
+  "deployedBytecode": "0x6080604052600080fdfea264697066735822122064f0872b1bb3ab8ac8c06d4ccb2e0ef750cbd7794d833af3293f142c685e29df64736f6c63430008000033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "64:20:2:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "64:20:2:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: UNLICENSED\npragma solidity ^0.8.0;\n\ncontract Comments {}\n",
+  "sourcePath": "/Users/ghostffcode/Documents/UpkitStudio/etherblog/contracts/subcontracts/Comments.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/subcontracts/Comments.sol",
+    "exportedSymbols": {
+      "Comments": [
+        232
+      ]
+    },
+    "id": 233,
+    "license": "UNLICENSED",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 231,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "39:23:2"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 232,
+        "linearizedBaseContracts": [
+          232
+        ],
+        "name": "Comments",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 233,
+        "src": "64:20:2"
+      }
+    ],
+    "src": "39:46:2"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/subcontracts/Comments.sol",
+    "exportedSymbols": {
+      "Comments": [
+        232
+      ]
+    },
+    "id": 233,
+    "license": "UNLICENSED",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 231,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "39:23:2"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 232,
+        "linearizedBaseContracts": [
+          232
+        ],
+        "name": "Comments",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 233,
+        "src": "64:20:2"
+      }
+    ],
+    "src": "39:46:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.0+commit.c7dfd78e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.1",
+  "updatedAt": "2021-07-17T22:48:45.645Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
