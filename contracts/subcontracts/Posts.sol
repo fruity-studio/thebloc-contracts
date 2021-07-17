@@ -28,6 +28,7 @@ contract Posts {
         address[] authors;
         mapping(address => Author) authorsParams;
         bool nsfw;
+        bool comments;
         PostType postType;
         string contentId;
         uint256 createdAt;
@@ -93,6 +94,7 @@ contract Posts {
         postsMap[postId].image = image;
         postsMap[postId].synopsis = synopsis;
         postsMap[postId].nsfw = nsfw;
+        postsMap[postId].comments = true;
         postsMap[postId].postType = PostType.text;
         postsMap[postId].contentId = contentId;
         postsMap[postId].createdAt = block.timestamp;
