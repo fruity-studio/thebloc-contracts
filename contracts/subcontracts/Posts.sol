@@ -126,6 +126,14 @@ contract Posts {
         postsMap[postId].nsfw = nsfw;
     }
 
+    function changePostComments(bytes32 postId, bool comments)
+        public
+        postExists(postId)
+        isPostAuthor(postId)
+    {
+        postsMap[postId].comments = comments;
+    }
+
     function publishPost(bytes32 postId)
         public
         postExists(postId)
@@ -163,6 +171,7 @@ contract Posts {
             string memory slug,
             string memory synopsis,
             bool nsfw,
+            bool comments,
             PostType postType,
             string memory contentId,
             uint256 createdAt,
@@ -183,6 +192,7 @@ contract Posts {
             string memory slug,
             string memory synopsis,
             bool nsfw,
+            bool comments,
             PostType postType,
             string memory contentId,
             uint256 createdAt,
@@ -195,10 +205,20 @@ contract Posts {
         image = postsMap[_postId].image;
         synopsis = postsMap[_postId].synopsis;
         nsfw = postsMap[_postId].nsfw;
+        comments = postsMap[_postId].comments;
         postType = postsMap[_postId].postType;
         contentId = postsMap[_postId].contentId;
         createdAt = postsMap[_postId].createdAt;
         published = uint256(postsMap[_postId].status);
+    }
+
+    function commentsEnabledForPost(bytes32 _postId)
+        internal
+        view
+        postExists(_postId)
+        returns (bool comments)
+    {
+        comments = postsMap[_postId].comments;
     }
 
     function fetchPaginatedPosts(uint256 page)
