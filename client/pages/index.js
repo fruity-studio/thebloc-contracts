@@ -88,6 +88,7 @@ export default function Home({ web3, isReady, user, connectWallet }) {
           <h3 className="italic text-xl mt-2">
             Blogging platform on the metaverse, powered by smart contracts & IPFS.
           </h3>
+          <span className="text-red-400">Please connect the BSC testnet to try demo out.</span>
         </div>
       </header>
       <section className="container mb-10">{loading ? <VariableView>loading...</VariableView> : renderPosts()}</section>
