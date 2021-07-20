@@ -6,7 +6,7 @@ const instance = () => {
   const projectSecret = '75aa84fcc71f5c905ba52d30ff008069'
   const auth = 'Basic ' + Buffer.from(projectId + ':' + projectSecret).toString('base64')
 
-  return IPFS({
+  return IPFS.create({
     host: 'ipfs.infura.io',
     port: 5001,
     protocol: 'https',
