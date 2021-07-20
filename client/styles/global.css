@@ -1,0 +1,22 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+* {
+  font-family: 'Crimson Text', serif;
+}
+
+body {
+  @apply bg-gray-100;
+}
+
+#__next {
+  @apply flex flex-1 flex-col justify-center items-center;
+}
+
+.editor-wrapper > div {
+  @apply w-full;
+}
