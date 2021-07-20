@@ -1,7 +1,8 @@
 import Web3 from 'web3'
 import BlogArtifact from './contracts/Blog.json'
 
-const customProviderUrl = 'http://127.0.0.1:7545'
+// const customProviderUrl = 'http://127.0.0.1:7545'
+const customProviderUrl = 'https://data-seed-prebsc-1-s1.binance.org:8545'
 
 const utils = {
   notEmptyBytes32: (value) => value !== '0x0000000000000000000000000000000000000000000000000000000000000000',
