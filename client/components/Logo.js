@@ -4,7 +4,7 @@ import Link from 'next/link'
 function Logo() {
   return (
     <Link href="/">
-      <img src="/assets/logo.svg" className="w-full h-auto" />
+      <img src="/logo.svg" className="w-full h-auto" />
     </Link>
   )
 }
