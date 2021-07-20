@@ -10,9 +10,9 @@ const instance = () => {
     host: 'ipfs.infura.io',
     port: 5001,
     protocol: 'https',
-    headers: {
-      authorization: auth,
-    },
+    // headers: {
+    //   authorization: auth,
+    // },
   })
 }
 
