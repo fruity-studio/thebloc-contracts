@@ -33,7 +33,9 @@ export default function Home({ web3, isReady, user, connectWallet }) {
           {posts.map((p) => (
             <div key={p.postId} className="flex flex-col justify-between bg-white border border-gray-100 rounded p-2">
               {p.image.length > 0 && (
-                <img src={ipfs.contentLink(p.image)} className="w-full mb-2 rounded object-cover max-h-36" />
+                <Link href={`post/${p.slug}`}>
+                  <img src={ipfs.contentLink(p.image)} className="w-full mb-2 rounded object-cover max-h-36" />
+                </Link>
               )}
               <Link href={`post/${p.slug}`}>
                 <h2 className="mb-2 text-lg font-semibold cursor-default">{p.title}</h2>
