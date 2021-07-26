@@ -1,23 +1,9 @@
-# Next.js + Tailwind CSS Example
+# Decentralized Blog Powered By IPFS & Smart Contracts
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) (v2.1) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+- IPFS Implementation: [https://github.com/fruity-studio/thebloc-contracts/blob/demo-build/client/lib/ipfs.js](https://github.com/fruity-studio/thebloc-contracts/blob/demo-build/client/lib/ipfs.js)
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+- IPFS Usage (upload post content & image): [https://github.com/fruity-studio/thebloc-contracts/blob/demo-build/client/components/NewPostModal.js](https://github.com/fruity-studio/thebloc-contracts/blob/demo-build/client/components/NewPostModal.js)
 
-## Deploy your own
+- IPFS Usage (load image): [https://github.com/fruity-studio/thebloc-contracts/blob/30495db8a15260da748373ae15a956f738b88431/client/pages/index.js#L37](https://github.com/fruity-studio/thebloc-contracts/blob/30495db8a15260da748373ae15a956f738b88431/client/pages/index.js#L37)
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+- IPFS Usage (load blog content): [https://github.com/fruity-studio/thebloc-contracts/blob/30495db8a15260da748373ae15a956f738b88431/client/pages/post/%5Bslug%5D.js#L17](https://github.com/fruity-studio/thebloc-contracts/blob/30495db8a15260da748373ae15a956f738b88431/client/pages/post/%5Bslug%5D.js#L17)
