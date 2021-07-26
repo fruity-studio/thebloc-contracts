@@ -1,7 +1,13 @@
 import IPFS from 'ipfs-http-client'
 import axios from 'axios'
 
-const instance = () => IPFS.create(process.env.NEXT_IPFS)
+const instance = () => {
+  return IPFS.create({
+    host: 'ipfs.infura.io',
+    port: 5001,
+    protocol: 'https',
+  })
+}
 
 const contentLink = (id) => `https://ipfs.io/ipfs/${id}`
 
